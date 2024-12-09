@@ -80,6 +80,24 @@ header {
     margin: 0 auto;
 }
 
+.profilepic {
+    /* Basic styling */
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* For a circular profile picture */
+    object-fit: cover;
+    /* Ensures the image fills the container without distortion */
+
+    /* Optional additional styling */
+    border: 2px solid #ccc;
+    /* Add a border if desired */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Add a subtle shadow */
+}
+
 .skills-grid, .projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
