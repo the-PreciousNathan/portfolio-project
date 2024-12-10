@@ -1,4 +1,5 @@
 *.txt
 *.pdf
 node_modules/
-.env
+*.env
+
