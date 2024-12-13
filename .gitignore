@@ -1,5 +1,38 @@
+new-features
 *.txt
 *.pdf
 node_modules/
 *.env
+
+*.txt
+*.pdf
+# Node modules directory
+node_modules/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables file
+.env
+
+# Compiled files
+*.out
+*.o
+
+# Dist folder (for build artifacts)
+dist/
+
+# Coverage directory used by testing tools
+coverage/
+
+# IDE specific files
+.vscode/
 
